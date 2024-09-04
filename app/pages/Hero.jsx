@@ -16,7 +16,7 @@ export const Hero = () => {
     return (
         <div className="flex py-10 flex-col lg:flex-row items-center space-x-0 lg:space-x-4 space-y-4 lg:space-y-0 justify-around w-full">
             {/* Título */}
-            <h1 className="text-4xl w-full lg:w-[60%] md:text-4xl lg:text-6xl font-semibold text-center relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+            <h1 className="text-4xl w-full lg:w-[60%] md:text-4xl lg:text-5xl font-semibold text-center relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white whitespace-nowrap" >
                 Yo soy <Cover> <FlipWords words={words} /> </Cover>
                 <br />
             </h1>

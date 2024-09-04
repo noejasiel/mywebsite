@@ -5,6 +5,7 @@ import { FlipWords } from "../components/ui/flip-words";
 import { Hero } from "./Hero";
 import { AnimatedModalDemo } from "./IAM";
 import { TimelineDemo } from "../components/Timeline";
+import { CardSpotlightDemo } from "./Prices";
 
 
 
@@ -22,6 +23,7 @@ export const Summary = () => {
                     <AnimatedModalDemo />
                 </div>
                 <TimelineDemo />
+                <CardSpotlightDemo />
             </BackgroundGradientAnimation>
         </div>
     );

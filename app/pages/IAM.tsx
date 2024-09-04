@@ -7,7 +7,6 @@ import {
   ModalFooter,
   ModalTrigger,
 } from "../components/ui/animated-modal";
-import { Background } from "@tsparticles/engine";
 import { SignupFormDemo } from "../components/Form";
 
 export function AnimatedModalDemo() {
